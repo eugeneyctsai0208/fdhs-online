@@ -1,0 +1,551 @@
+/**start of general**/
+a{
+  color: #000000;
+}
+header{
+}
+body{
+	background-color: #0077ff;
+}
+.entire-background{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #0077ff;
+}/**that white interior design part**/
+.box-block{
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+	width: 50%;
+	height: 100%;
+	position: relative;
+	left: 25%;
+	background-color: #ffffff;
+}
+/**finish of general**/
+
+/**start of body individual**/
+/**nav-bar**/
+
+#navbarbrand{
+  color: #000000;
+  font-size: 2em;
+}
+
+#navbarbrandspan{
+  padding-left: 1%;
+  color: #000000;
+}
+.navbar-brand {
+	color: #0077ff;
+	font-size: 20px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #0077ff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #0077ff;
+  color: #ffffff;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#e-mail p{
+  color: #0077ff;
+  text-align: right;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-right: 6%;
+  font-size: 1.5em;
+}
+
+#e-mail a { /* email */
+  text-align: right;
+  padding-bottom: 0;
+  font-size: 0.75em;
+}
+#e-mail div {
+  color: #0077ff;
+  text-align: right;
+  padding-right: 15px;
+}
+#e-mail 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #0077ff;
+}
+.icon{
+	margin-top: -2%;
+	padding-left: 2%;
+	padding-bottom: 2%;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-bottom:10px;
+}
+#header-nav{
+	background-color: #ffffff;
+	width: 100%;
+	position: relative;
+	border-color: #ffffff;
+	padding-top: 50px;
+	border-bottom: 0;
+}
+#logo-img{
+	background: url('../images/classicon-1.png') no-repeat;
+	background-size: 100%;
+	width: 125px;
+	height: 125px;
+	margin: 10px 15px 10px 0px
+}
+/**end of nav-bar**/
+/**drop-down list**/
+ul.drop-down-menu{ /* 取消ul預設的內縮及樣式 */ 
+    position: relative;
+    top: -20px;
+    width: 100%;
+    height: 200%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.drop-down-menu {
+    display: inline-block;
+}
+
+ul.drop-down-menu li {
+    position: relative;
+    white-space: nowrap;
+    border-right: #bbb 1px solid;
+    border-bottom:#bbb 1px solid;
+    border-left: #bbb 1px solid;
+    border-top: #bbb 1px solid;
+    width: 25%;  
+}
+ul.drop-down-menu > li:nth-child(1){
+  border-left: none;
+}
+ul.drop-down-menu > li:nth-child(4){
+  border-right: none;
+}
+ul.drop-down-menu > li:nth-child(5){
+  border-left: none;
+}
+ul.drop-down-menu > li:nth-child(8){
+  border-right: none;
+}
+ul.drop-down-menu > li:last-child{
+    position: relative;
+    white-space: nowrap;
+    border-right: #bbb 1px solid;
+    border-bottom:#bbb 1px solid;
+    border-left: #bbb 1px solid;
+    border-top:#bbb 1px solid;
+    width: 25%;  
+}
+
+ul.drop-down-menu > li {
+    float: left; /* 只有第一層是靠左對齊*/
+}  
+ 
+ul.drop-down-menu a {
+    background-color: #ffffff;
+    color: #333;
+    display: block;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 1.25em;
+}
+ul.drop-down-menu a:hover { /* 滑鼠滑入按鈕變色*/
+    background-color: #0077ff;
+    color: #fff;
+}
+ul.drop-down-menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+    background-color: #0077ff;
+    color: #fff;
+}
+
+/*second level drop down menu*/
+ul.drop-down-menu ul {
+    position: absolute;
+    z-index: 99;
+    top: 100%;
+    min-width: 180px;
+}
+
+ul.drop-down-menu ul li {
+    list-style-type: none;
+    border: #ccc 1px solid;
+    width: 120%;
+}
+ul.drop-down-menu ul li a{
+  	padding-left: 5%;
+}
+ul.drop-down-menu ul { /*隱藏次選單*/
+    display: none;
+} 
+
+ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+    display: block;
+}
+/**end of drop-down list**/
+/**main-content**/
+#main-content{
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #ffffff;
+}
+.main-content-curveEdge{
+  position: relative !important;
+  margin-top: 1% !important;
+  border-color: #000000 1px !important;
+  -webkit-border-radius: .5875em !important;
+  border-radius: .5875em !important;
+}
+#jumbotron{
+	margin-top: 50px;
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  width: 100%;
+}
+#introduction{
+	margin-top: 5%;
+	font-size: 1.5em;
+	position: relative;
+	width: 80%;
+	left: 10%;
+}
+#intro-content{
+  font-size: 1.2em;
+}
+.course-box{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #94c6ff;
+  padding: 5%;
+}
+.course-box h1{
+  font-size: 2.75em;
+  margin-bottom:5%; 
+}
+.course-box p{
+  font-size: 1.5em;
+}
+.course-box ol li{
+  font-size: 1.5em;
+  font: #000000;
+}
+.member-intro{
+  width: 80%;
+  position: relative;
+  left: 10%;
+  margin-bottom: 5%;
+}
+.member-intro h1{
+  font-size: 2em;
+}
+.member-intro h2{
+  font-size: 2em;
+}
+.member-intro img{
+  width: 50%;
+  height: 50%;
+  margin-top: 2.5%;
+}
+.teacher-intro{
+  margin-top: 2.5%; 
+  font-size: 1.6em;
+}
+#current-team-intro li{
+  font-size: 1.5em;
+}
+/**end of main-content**/
+/**footer**/
+#foot{
+	margin-top: 5% !important;
+	margin-bottom: 5% !important;
+	background-color: #ffffff;
+}
+#video{
+  width: 80%;
+  height: 80%;
+  position:relative;
+  left: 10%;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+}
+.lecture-title{
+  font-size: 2em;
+  position: relative;
+  left: 10%;
+}
+.lecture{
+  margin-top: 2.5%;
+}
+.lecture h4{
+  position: relative;
+  left: 10%;
+  font-size: 1.5em;
+}
+#course-adjustment{
+  position: relative;
+  width: 80%;
+  left: 10%;
+}
+#course-adjustment-2{
+  position: relative;
+  float: left;
+}
+#course-adjustment-2 a{
+  font-size: 1.75em;
+  color: #000000;
+}
+#course-adjustment-1{
+  position: relative;
+  float: right;
+}
+#course-adjustment-1 a{
+  font-size: 1.75em;
+  color: #000000;
+}
+/**end of footer**/
+/**finish of body individual**/
+
+/**media**/
+@media(min-width: 1200px){
+    #main-content{
+      top: 0;
+      padding-left: 10px; 
+    }
+    #jumbotron{
+    margin-top: 50px;
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+  .large-display{
+    width: 100%;
+  }
+#introduction{
+      width: 75%;
+      position: relative;
+      left: 12.5%;
+      margin-top: 30px;
+      font-size: 1.4em;
+  }
+  .container{
+  	width: 100%;
+  }
+    #main-content-course{
+    width: 80%;
+    background-color: #ffffff;
+    }
+
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .box-block{
+    width: 70%;
+    left: 15%;
+  }
+  #disappear{
+    display: none !important;
+  }
+  #main-content-course{
+    margin-left: 10%;
+  }
+  #main-content{
+  }
+  #main-content{
+    top: 0;
+    left: 0;
+    width: 100% 
+  }
+  #introduction{
+      width: 80%;
+      margin-top: 30px;
+      font-size: 1.35em;
+  }
+  #jumbotron{
+    margin-top: 50px;
+    width: 80%;
+}
+  #main-content-course{
+    width: 80%;
+  }
+  #logo-img {
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  .container{
+  	width: 100%;
+  }
+  .member-intro img{
+    width: 75%;
+    height: 75%;
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #jumbotron{
+    margin-top: 50px;
+    width: 80%;
+}
+#introduction{
+      width: 80%;
+      margin-top: 30px;
+      font-size: 1.3em;
+  }
+  .box-block{
+    width: 75%;
+    left: 12.5%;
+  }
+  #disappear{
+    display: none !important;
+  }
+  #main-content-course{
+    margin-left: 15%;
+  }
+  #main-content{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  #main-content{
+    top: 0;
+    left: 0;
+    width: 100% 
+  }
+.container{
+  	width: 100%;
+  }
+  #main-content-course{
+    width: 70%;
+  }
+  .member-intro img{
+    width: 75%;
+    height: 75%;
+  }
+  #display-modify{
+    margin-left: 50% 
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #collapsable-nav a:hover { /* 滑鼠滑入按鈕變色*/
+        background-color: #0077ff;
+        color: #fff;
+    }
+    
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .box-block{
+    width: 90%;
+    left: 5%;
+  }
+  #disappear{
+    display: none !important;
+  }
+  #main-content-course{
+    margin-left: 15%;
+  }
+  #main-content{
+    margin-left: 10%;
+  }
+  #main-content{
+    top: 0;
+    left: 0;
+    width: 80% 
+  }
+  #introduction{
+      width: 100%;
+      margin-top: 30px;
+      font-size: 1.25em;
+      position: relative;
+      top: -25%;
+      left: 0%;
+  }
+  #jumbotron{
+    left: -12.5%;
+    margin-top: 50px;
+    width: 125%;
+    position: relative;
+    top: -25%;
+  }
+  #main-content-course{
+    width: 70%;
+  }
+  .member-intro img{
+    width: 100%;
+    height: 100%;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+  }
+  .navbar-brand p { 
+    margin-top: 12px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #collapsable-nav a:hover { /* 滑鼠滑入按鈕變色*/
+        background-color: #0077ff;
+        color: #fff;
+    }
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  #logo-img {
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  .container{
+  	width: 100%;
+  }
+  #nav-list{
+  	position: relative;
+  	left: -10px;
+  }
+  /* End Header */
+
+} /*end of media*/
